@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import { Comment, Header } from 'semantic-ui-react';
+import ElizaBot from 'elizabot';
 import ChatHistory from './ChatHistory'
 import ChatInput from './ChatInput'
 
 class App extends Component {
   constructor(props) {
     super(props);
+    this.eliza = new ElizaBot();
     this.state = {
       messages: [{
         user: false,
-        text: "How do you feel about poop?",
+        text: this.eliza.getInitial(),
         date: new Date(),
       }],
     };
@@ -28,7 +30,7 @@ class App extends Component {
     });
     messages.push({
       user: false,
-      text: "How do you feel about poop?",
+      text: this.eliza.transform(input),
       date: new Date(),
     });
     this.setState({
