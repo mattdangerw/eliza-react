@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import ChatMessage from './ChatMessage'
+import { animateScroll } from "react-scroll";
 
 class ChatHistory extends Component {
   scrollToBottom = () => {
-    this.messagesEnd.scrollIntoView();
+    animateScroll.scrollToBottom({
+      containerId: "chatHistory"
+    });
   }
 
   componentDidMount() {
@@ -20,11 +23,8 @@ class ChatHistory extends Component {
     );
 
     return (
-      <div className="chatHistory">
+      <div className="chatHistory" id="chatHistory">
         {messages}
-        <div style={{ float: "left", clear: "both" }}
-          ref={(el) => { this.messagesEnd = el; }}>
-        </div>
       </div>
     );
   }
