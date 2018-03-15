@@ -13,7 +13,7 @@ class App extends Component {
     this.state = {
       messages: [{
         user: false,
-        text: this.eliza.getInitial(),
+        text: this.fixup(this.eliza.getInitial()),
         date: new Date(),
       }],
     };
@@ -46,14 +46,20 @@ class App extends Component {
     }
     if (unreplied.length === 0)
       return;
+    let response = this.eliza.transform(unreplied.join(' '));
     messages.push({
       user: false,
-      text: this.eliza.transform(unreplied.join(' ')),
+      text: this.fixup(response),
       date: new Date(),
     });
     this.setState({
       messages,
     });
+  }
+
+  fixup(text) {
+    // Hack fix for weird "?" spacing in elizabot
+    return text.replace(/ \?/g, '?');
   }
 
   render() {
