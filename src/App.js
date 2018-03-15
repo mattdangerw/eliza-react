@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Comment, Header } from 'semantic-ui-react';
 import ElizaBot from 'elizabot';
+import debounce from 'lodash.debounce';
+
 import ChatHistory from './ChatHistory'
 import ChatInput from './ChatInput'
 
@@ -15,10 +17,10 @@ class App extends Component {
         date: new Date(),
       }],
     };
+    this.debounced_reply = debounce(this.reply, 1000, { 'maxWait': 5000 });
   }
 
   handleInput = (input) => {
-    console.log(input);
     input = input.trim();
     if (!input)
       return;
@@ -28,9 +30,25 @@ class App extends Component {
       text: input,
       date: new Date(),
     });
+    this.setState({
+      messages,
+    });
+    this.debounced_reply();
+  }
+
+  reply = () => {
+    const unreplied = [];
+    const messages = this.state.messages.slice(0);
+    let iter = messages.length - 1;
+    while (messages[iter].user && iter >= 0) {
+      unreplied.unshift(messages[iter].text);
+      iter--;
+    }
+    if (unreplied.length === 0)
+      return;
     messages.push({
       user: false,
-      text: this.eliza.transform(input),
+      text: this.eliza.transform(unreplied.join(' ')),
       date: new Date(),
     });
     this.setState({

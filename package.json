@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "elizabot": "^0.0.2",
+    "lodash.debounce": "^4.0.8",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
