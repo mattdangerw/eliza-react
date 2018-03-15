@@ -1,0 +1,73 @@
+<svg width="400" height="400" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Component</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(448 363)">
+<g id="Component">
+<g id="Line">
+<use xlink:href="#path0_stroke" transform="matrix(1.01405e-16 -1 1 0 -243.587 -238.16)" fill="#154E66"/>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#path1_fill" transform="translate(-279.422 -251.263)" fill="#2BB5F0"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(-447 -184.872)" fill="#2BB5F0"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(-143.462 -185.003)" fill="#2BB5F0"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path3_fill" transform="translate(-400.626 -229.215)" fill="#DE3131"/>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#path4_fill" transform="translate(-273.098 -336)" fill="#DE3131"/>
+</g>
+<g id="Ellipse 2.1">
+<use xlink:href="#path5_fill" transform="translate(-267.045 -332.506)" fill="#ED7E7E"/>
+</g>
+<g id="Ellipse 3">
+<use xlink:href="#path6_fill" transform="translate(-337.669 -196.228)" fill="#F7F5F5"/>
+</g>
+<g id="Ellipse 3.1">
+<use xlink:href="#path7_fill" transform="translate(-331.546 -190.113)" fill="#2BB5F0"/>
+</g>
+<g id="Ellipse 3.2">
+<use xlink:href="#path8_fill" transform="translate(-318.427 -177.01)" fill="#154E66"/>
+</g>
+<g id="Ellipse 4">
+<use xlink:href="#path9_fill" transform="translate(-323.675 -184.872)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse 3.3">
+<use xlink:href="#path10_fill" transform="translate(-207.753 -195.53)" fill="#F7F5F5"/>
+</g>
+<g id="Ellipse 3.4">
+<use xlink:href="#path11_fill" transform="translate(-201.631 -189.415)" fill="#2BB5F0"/>
+</g>
+<g id="Ellipse 3.5">
+<use xlink:href="#path12_fill" transform="translate(-188.511 -176.311)" fill="#154E66"/>
+</g>
+<g id="Ellipse 4.1">
+<use xlink:href="#path13_fill" transform="translate(-193.759 -184.173)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 2">
+<use xlink:href="#path14_fill" transform="translate(-358.468 -114.475)" fill="#B6BCC2"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 0L 87.3572 0L 87.3572 -10L 0 -10L 0 0Z"/>
+<path id="path1_fill" d="M 61.2254 30.575C 61.2254 47.4611 47.5196 61.1501 30.6127 61.1501C 13.7058 61.1501 0 47.4611 0 30.575C 0 13.6889 13.7058 0 30.6127 0C 47.5196 0 61.2254 13.6889 61.2254 30.575Z"/>
+<path id="path2_fill" d="M 94.462 47.1729C 94.462 73.2258 73.316 94.3458 47.231 94.3458C 21.146 94.3458 0 73.2258 0 47.1729C 0 21.12 21.146 0 47.231 0C 73.316 0 94.462 21.12 94.462 47.1729Z"/>
+<path id="path3_fill" d="M 0 50C 0 22.3858 22.3858 0 50 0L 254.592 0C 282.206 0 304.592 22.3858 304.592 50L 304.592 134.214C 304.592 161.829 282.206 184.215 254.592 184.215L 50 184.215C 22.3858 184.215 0 161.829 0 134.215L 0 50Z"/>
+<path id="path4_fill" d="M 48.9803 24.46C 48.9803 37.9689 38.0157 48.92 24.4902 48.92C 10.9646 48.92 0 37.9689 0 24.46C 0 10.9511 10.9646 0 24.4902 0C 38.0157 0 48.9803 10.9511 48.9803 24.46Z"/>
+<path id="path5_fill" d="M 29.7381 14.8507C 29.7381 23.0526 23.081 29.7015 14.869 29.7015C 6.65709 29.7015 0 23.0526 0 14.8507C 0 6.6489 6.65709 0 14.869 0C 23.081 0 29.7381 6.6489 29.7381 14.8507Z"/>
+<path id="path6_fill" d="M 54.2282 27.0807C 54.2282 42.037 42.0888 54.1615 27.1141 54.1615C 12.1394 54.1615 0 42.037 0 27.0807C 0 12.1245 12.1394 0 27.1141 0C 42.0888 0 54.2282 12.1245 54.2282 27.0807Z"/>
+<path id="path7_fill" d="M 41.9831 20.9657C 41.9831 32.5448 32.5849 41.9315 20.9916 41.9315C 9.39824 41.9315 0 32.5448 0 20.9657C 0 9.38668 9.39824 0 20.9916 0C 32.5849 0 41.9831 9.38668 41.9831 20.9657Z"/>
+<path id="path8_fill" d="M 15.7437 7.86215C 15.7437 12.2043 12.2193 15.7243 7.87183 15.7243C 3.52434 15.7243 0 12.2043 0 7.86215C 0 3.52 3.52434 0 7.87183 0C 12.2193 0 15.7437 3.52 15.7437 7.86215Z"/>
+<path id="path9_fill" d="M 14.869 7.42536C 14.869 11.5263 11.5405 14.8507 7.43451 14.8507C 3.32854 14.8507 0 11.5263 0 7.42536C 0 3.32445 3.32854 0 7.43451 0C 11.5405 0 14.869 3.32445 14.869 7.42536Z"/>
+<path id="path10_fill" d="M 54.2282 27.0807C 54.2282 42.037 42.0888 54.1615 27.1141 54.1615C 12.1394 54.1615 0 42.037 0 27.0807C 0 12.1245 12.1394 0 27.1141 0C 42.0888 0 54.2282 12.1245 54.2282 27.0807Z"/>
+<path id="path11_fill" d="M 41.9831 20.9657C 41.9831 32.5448 32.5849 41.9315 20.9916 41.9315C 9.39824 41.9315 0 32.5448 0 20.9657C 0 9.38668 9.39824 0 20.9916 0C 32.5849 0 41.9831 9.38668 41.9831 20.9657Z"/>
+<path id="path12_fill" d="M 15.7437 7.86215C 15.7437 12.2043 12.2193 15.7243 7.87183 15.7243C 3.52434 15.7243 0 12.2043 0 7.86215C 0 3.52 3.52434 0 7.87183 0C 12.2193 0 15.7437 3.52 15.7437 7.86215Z"/>
+<path id="path13_fill" d="M 14.869 7.42536C 14.869 11.5263 11.5405 14.8507 7.43452 14.8507C 3.32855 14.8507 0 11.5263 0 7.42536C 0 3.32445 3.32855 0 7.43452 0C 11.5405 0 14.869 3.32445 14.869 7.42536Z"/>
+<path id="path14_fill" d="M 0 15.2635C 0 6.8337 6.8337 0 15.2635 0L 203.958 0C 212.388 0 219.222 6.8337 219.222 15.2635L 219.222 15.2635C 219.222 23.6933 212.388 30.527 203.958 30.527L 15.2635 30.527C 6.8337 30.527 0 23.6933 0 15.2635L 0 15.2635Z"/>
+</defs>
+</svg>

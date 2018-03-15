@@ -1,0 +1,22 @@
+<svg width="400" height="400" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Component 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-211 338)">
+<g id="Component 2">
+<g id="Vector 2">
+<use xlink:href="#path0_fill" transform="translate(282.369 -124.483)" fill="#25C495"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path1_fill" transform="translate(304.568 -314.821)" fill="#C79D6B"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(282.42 -326.382)" fill="#593F26"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 2.13725 147.083C -14.1422 110.052 65.0349 -86.2109 156.051 44.1373C 198.97 -60.7305 251.508 68.8772 251.508 147.083C 251.508 161.969 217.469 172.264 198.97 156.711C 178.251 171.523 85.7541 171.523 65.0349 153.008C 58.3751 173.745 7.31701 165.598 2.13725 147.083Z"/>
+<path id="path1_fill" d="M 217.552 108.87C 217.552 168.998 168.851 217.741 108.776 217.741C 48.7006 217.741 0 168.998 0 108.87C 0 48.743 48.7006 0 108.776 0C 168.851 0 217.552 48.743 217.552 108.87Z"/>
+<path id="path2_fill" d="M 0.688865 177.458C -13.3706 10.8197 191.602 -99.5319 266.339 132.281L 205.661 132.281C 199.741 87.844 178.282 53.7757 131.664 38.2225C 119.085 84.1407 35.4675 82.6594 65.0664 168.571L 0.688865 177.458Z"/>
+</defs>
+</svg>

@@ -4,11 +4,11 @@ import { Comment } from 'semantic-ui-react';
 class ChatMessage extends Component {
   render() {
     const message = this.props.message;
-    let avatar = '/assets/images/robot.webp';
+    let avatar = '/assets/images/robot.svg';
     let author = 'ELIZA';
     let className = 'eliza';
     if (message.user) {
-      avatar = '/assets/images/human.png';
+      avatar = '/assets/images/human.svg';
       author = 'Me';
       className = 'user';
     }
