@@ -6,13 +6,15 @@ class ChatMessage extends Component {
     const message = this.props.message;
     let avatar = '/assets/images/robot.webp';
     let author = 'ELIZA';
+    let className = 'eliza';
     if (message.user) {
       avatar = '/assets/images/human.png';
       author = 'Me';
+      className = 'user';
     }
 
     return (
-      <Comment>
+      <Comment className={className}>
         <Comment.Avatar src={avatar} />
         <Comment.Content>
           <Comment.Author as='a'>{author}</Comment.Author>

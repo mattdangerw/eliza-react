@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Comment, Header } from 'semantic-ui-react';
 import ChatHistory from './ChatHistory'
 import ChatInput from './ChatInput'
 
@@ -38,8 +39,13 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <ChatHistory messages={this.state.messages} />
-        <ChatInput inputHandler={this.handleInput} />
+        <Header className="chatHeader" as='h3' block>
+          Chat with ELIZA
+        </Header>
+        <Comment.Group className="chatBody">
+          <ChatHistory messages={this.state.messages} />
+          <ChatInput inputHandler={this.handleInput} />
+        </Comment.Group>
       </div>
     );
   }

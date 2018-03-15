@@ -1,17 +1,31 @@
 import React, { Component } from 'react';
-import { Comment } from 'semantic-ui-react';
 import ChatMessage from './ChatMessage'
 
 class ChatHistory extends Component {
+  scrollToBottom = () => {
+    this.messagesEnd.scrollIntoView();
+  }
+
+  componentDidMount() {
+    this.scrollToBottom();
+  }
+
+  componentDidUpdate() {
+    this.scrollToBottom();
+  }
+
   render() {
     const messages = this.props.messages.map((message, index) =>
       <ChatMessage key={index} message={message} />
     );
 
     return (
-      <Comment.Group className="chatHistory">
+      <div className="chatHistory">
         {messages}
-      </Comment.Group>
+        <div style={{ float: "left", clear: "both" }}
+          ref={(el) => { this.messagesEnd = el; }}>
+        </div>
+      </div>
     );
   }
 }

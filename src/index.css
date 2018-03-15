@@ -9,13 +9,26 @@
 .app {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 650px;
-  height: 100%;
   padding: 10px;
 }
 
-.chatHistory {
-  height: 100%;
-  width: 100%;
+.app .chatHeader {
+  margin-bottom: 0;
+}
+
+.app .comments {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.app .chatHistory {
   overflow-y: auto;
+}
+
+.app .chatInput {
+  min-height: 38px;
 }

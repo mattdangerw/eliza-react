@@ -35,6 +35,7 @@ class ChatInput extends Component {
   render() {
     return (
       <Input
+        className="chatInput"
         onChange={this.handleChange}
         onKeyDown={this.handleKeyDown}
         action={{ color: 'teal', icon: 'arrow right', onClick: this.handleClick}}
