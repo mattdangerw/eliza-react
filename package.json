@@ -1,5 +1,5 @@
 {
-  "name": "chat-demo",
+  "name": "eliza-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
