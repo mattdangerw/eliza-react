@@ -1,6 +1,6 @@
 # ELIZA Chat bot
 
-An react based interface for chatting with [ELIZA](https://en.wikipedia.org/wiki/ELIZA) made for my blog [Eggemy](https://www.eggemy.com/).
+An react based interface for chatting with [ELIZA](https://en.wikipedia.org/wiki/ELIZA).
 
 Project created with [create-react-app](https://github.com/facebook/create-react-app) using [Semantic UI](https://react.semantic-ui.com/introduction) for the interface.
 
